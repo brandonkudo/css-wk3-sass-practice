@@ -1,0 +1,7 @@
+@mixin darkencolor($val) {
+  background-color: darken($val, 20%);
+}
+
+@mixin lightencolor($val) {
+  background-color: lighten($val, 20%);
+}

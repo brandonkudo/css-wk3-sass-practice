@@ -1,0 +1,69 @@
+.container {
+  width: 100vw; }
+
+.row {
+  width: 100vw;
+  clear: both; }
+
+.text {
+  float: left;
+  padding-top: 80px; }
+
+.text2 {
+  float: right;
+  padding-top: 80px; }
+
+.column {
+  width: 300px;
+  height: 25vh;
+  border: 2px solid black;
+  margin: 2px;
+  float: left;
+  text-align: center; }
+
+.color {
+  width: 100%;
+  height: 10vh; }
+
+#mint {
+  background-color: #d9f5e8; }
+
+#teal {
+  background-color: #37cbc2; }
+
+#gold {
+  background-color: #ffbb33; }
+
+#tomato {
+  background-color: tomato; }
+
+.colorcolumn {
+  width: 33%;
+  height: 100%;
+  float: left; }
+
+#mint2 {
+  background-color: #88e0b7; }
+
+#teal2 {
+  background-color: #207c76; }
+
+#gold2 {
+  background-color: #cc8800; }
+
+#tomato2 {
+  background-color: #e02200; }
+
+#mint3 {
+  background-color: white; }
+
+#teal3 {
+  background-color: #88e0db; }
+
+#gold3 {
+  background-color: #ffdd99; }
+
+#tomato3 {
+  background-color: #ffb9ad; }
+
+/*# sourceMappingURL=style.css.map */

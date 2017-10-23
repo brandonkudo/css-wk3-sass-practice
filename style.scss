@@ -1,0 +1,111 @@
+@import 'partials/mixins';
+
+$container: 100vw;
+$mint: rgb(217, 245, 232);
+$teal: rgb(55, 203, 194);
+$gold: rgb(255, 187, 51);
+$tomato: rgb(255, 99, 71);
+
+
+.container {
+  width: $container;
+}
+
+.row {
+  width: $container;
+  clear: both;
+}
+
+.text {
+  float:left;
+  padding-top: 80px;
+}
+
+.text2 {
+  float:right;
+  padding-top: 80px;
+}
+.column {
+  width: 300px;
+  height: 25vh;
+  border: 2px solid black;
+  margin: 2px;
+  float: left;
+  text-align: center;
+}
+
+.color {
+  width: 100%;
+  height: 10vh;
+}
+
+#mint {
+  background-color: $mint;
+
+
+}
+
+#teal {
+  background-color: $teal;
+}
+
+#gold {
+  background-color: $gold;
+}
+
+#tomato {
+  background-color: $tomato;
+}
+
+.colorcolumn {
+  width: 33%;
+  height: 100%;
+  float: left;
+}
+
+// $colors: (
+//   'mint': $mint;
+//   'teal': $teal;
+//   'gold': $gold;
+//   'tomato': $tomato;
+// );
+
+// @each $color, $hex in $colors
+// {
+//   ##{$color}2
+//   {
+//     background-color: $hex;
+//   }
+// }
+
+#mint2 {
+  @include darkencolor($mint);
+}
+
+#teal2 {
+  @include darkencolor($teal);
+}
+
+#gold2 {
+  @include darkencolor($gold);
+}
+
+#tomato2 {
+  @include darkencolor($tomato);
+}
+
+#mint3 {
+  @include lightencolor($mint);
+}
+
+#teal3 {
+  @include lightencolor($teal);
+}
+
+#gold3 {
+  @include lightencolor($gold);
+}
+
+#tomato3 {
+  @include lightencolor($tomato);
+}
